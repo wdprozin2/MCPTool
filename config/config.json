@@ -28,7 +28,7 @@
         "fakeProxyUpdateDelay": "2",
         "fakeProxyCommandPrefix": ".",
         "waterfallVersion": "https://api.papermc.io/v2/projects/waterfall/versions/1.20/builds/548/downloads/waterfall-1.20-548.jar",
-        "velocityVersion": "https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/276/downloads/velocity-3.2.0-SNAPSHOT-276.jar"
+        "velocityVersion": "https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/285/downloads/velocity-3.2.0-SNAPSHOT-285.jar"
     },
     "logs": true,
     "currentVersion": "4.0.4"
