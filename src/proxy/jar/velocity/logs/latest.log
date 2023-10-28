@@ -1,0 +1,14 @@
+[02:24:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-ae63da68-b286)...
+[02:24:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[02:24:06] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[02:24:06] [main/ERROR] [com.velocitypowered.proxy.VelocityServer]: Unable to read/load/save your velocity.toml. The server will shut down.
+java.lang.IllegalArgumentException: No enum constant com.velocitypowered.proxy.config.PlayerInfoForwarding.bungee
+	at com.electronwill.nightconfig.core.EnumGetMethod.get(EnumGetMethod.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnum(UnmodifiableConfig.java:175) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:275) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:250) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:258) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.read(VelocityConfiguration.java:553) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:313) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:220) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
