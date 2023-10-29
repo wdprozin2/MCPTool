@@ -1,0 +1,101 @@
+[16:39:00] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-67d5e77b-b290)...
+[16:39:00] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[16:39:01] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[16:39:01] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[16:39:01] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+java.lang.IllegalArgumentException: Image is not 64x64 (found 115x115)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:299) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:82) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:107) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:230) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+[16:39:01] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[16:39:01] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
+[16:39:01] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[16:39:02] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:33330
+[16:39:02] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2,69s)!
+[16:39:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:52475) has connected
+[16:39:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
+[16:39:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
+[16:39:22] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52475): disconnected while connecting to lobby: 
+[16:39:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52475) has disconnected: Не удалось подключиться к серверу lobby: ДЛЯ ИГРЫ НА СЕРВЕРЕ ИСПОЛЬЗУЙТЕ ВЕРСИЮ 1.12.2
+[16:39:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:52481) has connected
+[16:39:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
+[16:39:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
+[16:39:28] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52481): disconnected while connecting to lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:39:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52481) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:39:38] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:52490) has connected
+[16:39:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
+[16:39:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
+[16:39:39] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52490): disconnected while connecting to lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:39:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52490) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:39:48] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:52499) has connected
+[16:39:48] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
+[16:39:49] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
+[16:39:49] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52499): disconnected while connecting to lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:39:49] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:52499) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
+
+Вас забанил игрок: CONSOLE
+По причине: 3.1
+
+Бан по IP: Да
+Начало блокировки: 2023-10-29
+Окончание блокировки: Никогда
+
+
+[16:40:06] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] kalokola (/127.0.0.1:52513) has connected
+[16:40:06] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] kalokola -> lobby has connected
+[16:41:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] kalokola (/127.0.0.1:52513) has disconnected
+[16:41:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] kalokola -> lobby has disconnected
+[16:41:53] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] enot228 (/127.0.0.1:52552) has connected
+[16:41:54] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has connected
+[16:42:21] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] enot228 (/127.0.0.1:52552) has disconnected
+[16:42:21] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has disconnected

@@ -1,1 +1,13 @@
-.
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/kalokola/#-#/127.0.0.1
+[CHAT]/#-#/kalokola/#-#/127.0.0.1/#-#/енот
+[DISCONNECTING]/#-#/kalokola/#-#/127.0.0.1
+[CONNECTING]/#-#/enot228/#-#/127.0.0.1
+[DISCONNECTING]/#-#/enot228/#-#/127.0.0.1
