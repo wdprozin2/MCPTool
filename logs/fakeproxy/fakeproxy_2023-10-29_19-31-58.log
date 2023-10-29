@@ -1,0 +1,10 @@
+MCPTool Logs
+www.github.com/wrrulos/mcptool
+
+2023-10-29 19:31:56 Target: 45.93.200.14:25596 (Forwading mode: legacy)
+
+2023-10-29 19:32:21 🟢 sqlkotikq (127.0.0.1)
+2023-10-29 19:32:27 ✉️ sqlkotikq (127.0.0.1) => f
+2023-10-29 19:32:29 🔴 sqlkotikq (127.0.0.1)
+2023-10-29 19:32:45 🟢 deploo (127.0.0.1)
+2023-10-29 19:32:52 💣 deploo (127.0.0.1) => /spawn

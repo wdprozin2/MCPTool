@@ -1,8 +1,8 @@
-[17:16:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-67d5e77b-b290)...
-[17:16:09] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[17:16:10] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
-[17:16:10] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[17:16:10] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[19:32:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-67d5e77b-b290)...
+[19:32:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[19:32:04] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[19:32:04] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[19:32:04] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.io.IOException: Unable to read the image.
 	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
@@ -10,92 +10,32 @@ java.io.IOException: Unable to read the image.
 	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-[17:16:10] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[17:16:11] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
-[17:16:11] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[17:16:11] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:33330
-[17:16:11] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2,92s)!
-[17:16:28] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:50313) has connected
-[17:16:28] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[17:16:28] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[17:16:28] [Netty NIO Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:50313): disconnected while connecting to lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[17:16:28] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:50313) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[17:17:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:50315) has connected
-[17:17:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[17:17:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[17:17:17] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:50315): disconnected while connecting to lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[17:17:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:50315) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[17:17:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] enot228 (/127.0.0.1:50317) has connected
-[17:17:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has connected
-[17:17:36] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] enot228 (/127.0.0.1:50317) has disconnected
-[17:17:36] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has disconnected
-[17:17:42] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] enot228 (/127.0.0.1:50337) has connected
-[17:17:42] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has connected
-[17:17:51] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] enot228 (/127.0.0.1:50337) has disconnected
-[17:17:51] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has disconnected
-[17:18:10] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] __MADJIK__ (/127.0.0.1:50344) has connected
-[17:18:10] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has connected
-[17:18:23] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] __MADJIK__ (/127.0.0.1:50344) has disconnected
-[17:18:23] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has disconnected
-[17:19:31] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] NE BAN MENA (/127.0.0.1:50356) has connected
-[17:19:31] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NE BAN MENA -> lobby has connected
-[17:22:29] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] NE BAN MENA (/127.0.0.1:50356) has disconnected
-[17:22:29] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NE BAN MENA -> lobby has disconnected
-[17:22:33] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] NE BAN MENA (/127.0.0.1:50413) has connected
-[17:22:33] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NE BAN MENA -> lobby has connected
-[17:22:58] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] NE BAN MENA (/127.0.0.1:50413) has disconnected
-[17:22:58] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] NE BAN MENA -> lobby has disconnected
-[17:23:25] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] enot228 (/127.0.0.1:50427) has connected
-[17:23:25] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has connected
-[17:25:35] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] enot228 (/127.0.0.1:50427) has disconnected
-[17:25:35] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] enot228 -> lobby has disconnected
-[17:25:40] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50444) has connected
-[17:25:40] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:27:35] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50444) has disconnected
-[17:27:35] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:31:34] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50468) has connected
-[17:31:34] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:32:25] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50468) has disconnected
-[17:32:25] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:32:54] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50493) has connected
-[17:32:54] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:32:57] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@1689e539
+[19:32:04] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[19:32:05] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
+[19:32:05] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[19:32:06] [Netty NIO Boss #0/ERROR] [com.velocitypowered.proxy.network.ConnectionManager]: Can't bind to /0.0.0.0:33330
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[Velocity.jar:3.2.0-S[19:32:20] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotikq (/127.0.0.1:52928) has connected
+[19:32:20] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has connected
+[19:32:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotikq (/127.0.0.1:52928) has disconnected
+[19:32:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has disconnected
+[19:32:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52947) has connected
+[19:32:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
+[19:34:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52947) has disconnected
+[19:34:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
+[19:34:34] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52966) has connected
+[19:34:34] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:35:33] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:52966) has disconnected
+[19:35:33] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:35:46] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52983) has connected
+[19:35:47] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:37:19] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@2ee93849
 java.net.SocketException: Connection reset
 	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -111,163 +51,44 @@ java.net.SocketException: Connection reset
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[17:32:57] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:50493) has disconnected: Your connection to lobby encountered a problem.
-[17:32:57] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:33:00] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50495) has connected
-[17:33:02] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:33:03] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50495) has disconnected
-[17:33:03] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:33:07] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50502) has connected
-[17:33:07] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:33:08] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50502) has disconnected
-[17:33:08] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:33:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50509) has connected
-[17:33:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:33:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50509) has disconnected
-[17:33:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:33:20] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50534) has connected
-[17:33:20] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:33:22] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50534) has disconnected
-[17:33:22] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:33:23] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50536) has connected
-[17:33:23] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:36:09] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50536) has disconnected
-[17:36:09] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:36:50] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50561) has connected
-[17:36:50] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:36:53] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50561) has disconnected
-[17:36:53] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:38:43] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50587) has connected
-[17:38:43] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:39:35] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50587) has disconnected
-[17:39:35] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:40:11] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:50597) has connected
-[17:40:11] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[17:42:30] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:50597) has disconnected
-[17:42:30] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[17:42:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] __MADJIK__ (/127.0.0.1:50625) has connected
-[17:42:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has connected
-[17:43:41] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] __MADJIK__ (/127.0.0.1:50625) has disconnected
-[17:43:41] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has disconnected
-[17:43:51] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Velo4k (/127.0.0.1:50632) has connected
-[17:43:51] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Velo4k -> lobby has connected
-[17:48:55] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Velo4k (/127.0.0.1:50632) has disconnected
-[17:48:55] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Velo4k -> lobby has disconnected
-[17:49:07] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Velo4k (/127.0.0.1:50641) has connected
-[17:49:07] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Velo4k -> lobby has connected
-[17:49:15] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Velo4k (/127.0.0.1:50641) has disconnected
-[17:49:15] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Velo4k -> lobby has disconnected
-[17:49:22] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sorrybro007 (/127.0.0.1:50648) has connected
-[17:49:22] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sorrybro007 -> lobby has connected
-[17:52:50] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sorrybro007 (/127.0.0.1:50648) has disconnected
-[17:52:50] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sorrybro007 -> lobby has disconnected
-[17:52:57] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51196) has connected
-[17:52:57] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[17:56:01] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51196) has disconnected
-[17:56:01] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[17:59:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51340) has connected
-[17:59:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:04:21] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51340) has disconnected
-[18:04:21] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:04:48] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51354) has connected
-[18:04:48] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:06:54] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51354) has disconnected
-[18:06:54] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:07:07] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51391) has connected
-[18:07:07] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:07:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51391) has disconnected
-[18:07:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:08:48] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51426) has connected
-[18:08:48] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:11:57] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51426) has disconnected
-[18:11:57] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:12:02] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Kaban_v_Noskax (/127.0.0.1:51437) has connected
-[18:12:03] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has connected
-[18:12:59] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Kaban_v_Noskax (/127.0.0.1:51437): kicked from server lobby: |  Тебя кикнул CONSOLE
-| Причина Анти-Чит ?  Несправедливое Преимущество за использование читов
-[18:12:59] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has disconnected
-[18:12:59] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Kaban_v_Noskax (/127.0.0.1:51437) has disconnected: You were kicked from lobby: |  Тебя кикнул CONSOLE
-| Причина Анти-Чит ?  Несправедливое Преимущество за использование читов
-[18:13:02] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Kaban_v_Noskax (/127.0.0.1:51445) has connected
-[18:13:03] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has connected
-[18:13:16] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kaban_v_Noskax (/127.0.0.1:51445) has disconnected
-[18:13:16] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has disconnected
-[18:14:18] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Kaban_v_Noskax (/127.0.0.1:51463) has connected
-[18:14:18] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has connected
-[18:15:43] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kaban_v_Noskax (/127.0.0.1:51463) has disconnected
-[18:15:43] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has disconnected
-[18:16:41] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Kaban_v_Noskax (/127.0.0.1:51491) has connected
-[18:16:41] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has connected
-[18:17:01] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Kaban_v_Noskax (/127.0.0.1:51491) has disconnected
-[18:17:01] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Kaban_v_Noskax -> lobby has disconnected
-[18:17:13] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_pro (/127.0.0.1:51500) has connected
-[18:17:13] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has connected
-[18:17:45] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_pro (/127.0.0.1:51500) has disconnected
-[18:17:45] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has disconnected
-[18:20:07] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_pro (/127.0.0.1:51543) has connected
-[18:20:07] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has connected
-[18:20:08] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_pro (/127.0.0.1:51543) has disconnected
-[18:20:08] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has disconnected
-[18:20:18] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_pro (/127.0.0.1:51557) has connected
-[18:20:18] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has connected
-[18:20:41] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_pro (/127.0.0.1:51557) has disconnected
-[18:20:41] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has disconnected
-[18:21:53] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_pro (/127.0.0.1:51586) has connected
-[18:21:53] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has connected
-[18:25:41] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_pro (/127.0.0.1:51586) has disconnected
-[18:25:41] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_pro -> lobby has disconnected
-[18:25:48] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_proha (/127.0.0.1:51655) has connected
-[18:25:48] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_proha -> lobby has connected
-[18:25:54] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_proha (/127.0.0.1:51655) has disconnected
-[18:25:54] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_proha -> lobby has disconnected
-[18:29:47] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] madik_proha (/127.0.0.1:51679) has connected
-[18:29:47] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_proha -> lobby has connected
-[18:29:53] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] madik_proha (/127.0.0.1:51679) has disconnected
-[18:29:53] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] madik_proha -> lobby has disconnected
-[18:32:44] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51693) has connected
-[18:32:45] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:37:28] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51693) has disconnected
-[18:37:28] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:38:09] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51733) has connected
-[18:38:09] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:38:22] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51733) has disconnected
-[18:38:22] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:38:27] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:51740) has connected
-[18:38:27] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[18:38:33] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:51740): kicked from server lobby: You logged in from another location
-[18:38:33] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[18:38:33] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:51740) has disconnected: You were kicked from lobby: You logged in from another location
-[18:38:36] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:51742) has connected
-[18:38:36] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[18:38:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:51742): kicked from server lobby: You logged in from another location
-[18:38:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[18:38:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:51742) has disconnected: You were kicked from lobby: You logged in from another location
-[18:38:48] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51744) has connected
-[18:38:48] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:39:38] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51744) has disconnected
-[18:39:38] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:39:42] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51758) has connected
-[18:39:42] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:40:24] [Netty NIO Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@3a3c1248
-java.net.SocketException: Connection reset
-	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[18:40:24] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51758) has disconnected: Your connection to lobby encountered a problem.
-[18:40:24] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:40:27] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51766) has connected
-[18:40:32] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51766): unable to connect to server lobby
+[19:37:19] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:52983) has disconnected: Your connection to lobby encountered a problem.
+[19:37:19] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:37:24] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52998) has connected
+[19:37:27] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:52998) has disconnected
+[19:39:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53066) has connected
+[19:39:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53066): kicked from server lobby: На сервере произошла внутренняя ошибка подключения.
+[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53066) has disconnected: You were kicked from lobby: An internal server connection error occurred.
+[19:40:32] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53078) has connected
+[19:40:32] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:40:45] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:40:45] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53078): disconnected while connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[19:40:45] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53078) has disconnected: Не удалось подключиться к серверу lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[19:41:00] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53086) has connected
+[19:41:00] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:41:51] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53086) has disconnected
+[19:41:51] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:42:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53109) has connected
+[19:42:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:46:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53109) has disconnected
+[19:46:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:48:38] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53166) has connected
+[19:48:38] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:52:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53166) has disconnected
+[19:52:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:54:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53222) has connected
+[19:54:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:54:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53222) has disconnected
+[19:54:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[19:55:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53233) has connected
+[19:55:36] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[19:56:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53233) has disconnected
+[19:56:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[20:07:09] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53379) has connected
+[20:07:13] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53379) has disconnected
+[20:07:21] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53393) has connected
+[20:07:26] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53393): unable to connect to server lobby
 io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
@@ -280,9 +101,9 @@ io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[18:40:32] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51766) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[18:40:36] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51778) has connected
-[18:40:42] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51778): unable to connect to server lobby
+[20:07:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53393) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
+[20:07:30] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53401) has connected
+[20:07:35] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53401): unable to connect to server lobby
 io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
 	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
@@ -295,209 +116,25 @@ io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[18:40:42] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51778) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[18:40:50] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51798) has connected
-[18:40:53] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51798) has disconnected
-[18:41:40] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:51857) has connected
-[18:41:43] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[18:41:43] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[18:41:43] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:51857): disconnected while connecting to lobby: 
-[18:41:43] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:51857) has disconnected: Не удалось подключиться к серверу lobby: ДЛЯ ИГРЫ НА СЕРВЕРЕ ИСПОЛЬЗУЙТЕ ВЕРСИЮ 1.12.2
-[18:41:50] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:51859) has connected
-[18:41:51] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[18:41:52] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:51859) has disconnected
-[18:41:52] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[18:41:54] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:51867) has connected
-[18:41:54] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[18:41:57] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:51867) has disconnected
-[18:41:57] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[18:42:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:51887) has connected
-[18:42:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has connected
-[18:42:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotik -> lobby has disconnected
-[18:42:00] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:51887): disconnected while connecting to lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[18:42:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:51887) has disconnected: Не удалось подключиться к серверу lobby: Вы были забанены на этом сервере!
-
-Вас забанил игрок: CONSOLE
-По причине: 3.1
-
-Бан по IP: Да
-Начало блокировки: 2023-10-29
-Окончание блокировки: Никогда
-
-
-[18:42:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51889) has connected
-[18:42:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:42:29] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@22dff129
-java.net.SocketException: Connection reset
-	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+[20:07:35] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53401) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
+[20:08:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53436) has connected
+[20:08:31] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53436): unable to connect to server lobby
+io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[18:42:29] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:51889) has disconnected: Your connection to lobby encountered a problem.
-[18:42:29] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:42:32] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51907) has connected
-[18:42:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:42:39] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51907) has disconnected
-[18:42:39] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:43:36] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51918) has connected
-[18:43:36] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:43:42] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51918) has disconnected
-[18:43:42] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:43:52] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51936) has connected
-[18:43:52] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:46:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51936) has disconnected
-[18:46:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:46:45] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51954) has connected
-[18:46:45] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:49:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51954) has disconnected
-[18:49:42] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:49:44] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51976) has connected
-[18:49:44] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:51:39] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51976) has disconnected
-[18:51:39] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:51:41] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:51987) has connected
-[18:51:41] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:51:44] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:51987) has disconnected
-[18:51:44] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:52:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52005) has connected
-[18:52:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:52:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52005) has disconnected
-[18:52:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:52:45] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52013) has connected
-[18:52:47] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:52:48] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52013) has disconnected
-[18:52:48] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:52:50] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52021) has connected
-[18:52:50] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:52:51] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52021) has disconnected
-[18:52:51] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:53:44] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52042) has connected
-[18:53:45] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:54:55] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52042) has disconnected
-[18:54:55] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:55:27] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52082) has connected
-[18:55:27] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[18:56:59] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52082) has disconnected
-[18:56:59] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[18:57:53] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52103) has connected
-[18:57:53] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:00:17] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52103) has disconnected
-[19:00:17] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:05:59] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52216) has connected
-[19:06:00] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:11:09] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52216) has disconnected
-[19:11:09] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:11:34] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52332) has connected
-[19:11:34] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:11:37] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52332) has disconnected
-[19:11:37] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:11:47] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52361) has connected
-[19:11:47] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:12:25] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@605bd4f1
-java.net.SocketException: Connection reset
-	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[19:12:25] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] deploo (/127.0.0.1:52361) has disconnected: Your connection to lobby encountered a problem.
-[19:12:25] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:13:45] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52440) has connected
-[19:13:45] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:13:52] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52440) has disconnected
-[19:13:52] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:13:57] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52454) has connected
-[19:13:58] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:14:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52454) has disconnected
-[19:14:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:14:26] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52468) has connected
-[19:14:26] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:14:38] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52468) has disconnected
-[19:14:38] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:16:06] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52491) has connected
-[19:16:06] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:16:19] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:52491) has disconnected
-[19:16:19] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:16:23] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52506) has connected
-[19:16:23] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:16:24] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ProFitOFF (/127.0.0.1:52506) has disconnected
-[19:16:24] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:16:27] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52520) has connected
-[19:16:27] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:16:51] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52520): kicked from server lobby: You logged in from another location
-[19:16:51] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:16:51] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52520) has disconnected: You were kicked from lobby: You logged in from another location
-[19:16:55] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52535) has connected
-[19:16:55] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:16:58] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52535): kicked from server lobby: You logged in from another location
-[19:16:58] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:16:58] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52535) has disconnected: You were kicked from lobby: You logged in from another location
-[19:17:15] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52544) has connected
-[19:17:15] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:17:18] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52544): kicked from server lobby: You logged in from another location
-[19:17:18] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:17:18] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52544) has disconnected: You were kicked from lobby: You logged in from another location
-[19:17:22] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52546) has connected
-[19:17:22] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:17:25] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52546): kicked from server lobby: You logged in from another location
-[19:17:25] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:17:25] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52546) has disconnected: You were kicked from lobby: You logged in from another location
-[19:17:28] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52548) has connected
-[19:17:28] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:17:33] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52548): kicked from server lobby: You logged in from another location
-[19:17:33] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:17:33] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52548) has disconnected: You were kicked from lobby: You logged in from another location
-[19:17:36] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52574) has connected
-[19:17:36] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:17:38] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52574): kicked from server lobby: You logged in from another location
-[19:17:38] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:17:38] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52574) has disconnected: You were kicked from lobby: You logged in from another location
-[19:17:42] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ProFitOFF (/127.0.0.1:52582) has connected
-[19:17:43] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has connected
-[19:17:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52582): kicked from server lobby: You logged in from another location
-[19:17:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ProFitOFF -> lobby has disconnected
-[19:17:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] ProFitOFF (/127.0.0.1:52582) has disconnected: You were kicked from lobby: You logged in from another location
-[19:18:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52593) has connected
-[19:18:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:21:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52593) has disconnected
-[19:21:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:21:51] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52619) has connected
-[19:21:51] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:22:00] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52619) has disconnected
-[19:22:00] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:22:16] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52640) has connected
-[19:22:16] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:23:01] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52640) has disconnected
-[19:23:01] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:23:56] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52681) has connected
-[19:23:56] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:24:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52681) has disconnected
-[19:24:00] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
+[20:08:31] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53436) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
+[20:09:19] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53439) has connected
+[20:09:24] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53439) has disconnected
+[20:28:25] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53475) has connected
+[20:28:26] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
+[20:29:17] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53475) has disconnected
+[20:29:17] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
