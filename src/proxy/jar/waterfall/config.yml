@@ -44,5 +44,5 @@ disabled_commands:
 servers:
   server:
     motd: '&c&lMCP&f&lTool &7&l» &9&lWaterfall Proxy'
-    address: 149.56.242.38:25565
+    address: 45.93.200.14:25596
     restricted: false

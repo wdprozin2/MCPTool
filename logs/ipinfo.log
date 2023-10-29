@@ -8,4 +8,25 @@ IP: 194.36.177.102
 [Region] Hesse (HE)
 [City] Frankfurt am Main (Europe/Berlin)
 [ISP] WAIcore Hosting LTD. ()
-            [HOST] .
+            [HOST] .IP: 45.93.200.14
+
+[Continent Europe (EU)
+[Country] Russia (RU)
+[Region] St.-Petersburg (SPE)
+[City] St Petersburg (Europe/Moscow)
+[ISP] IE Zhemoedov Sergey Mihaylovich (IE Zhemoedov Sergey Mihaylovich)
+            [HOST] 14.200.93.45.in-addr.arpaIP: 45.93.200.14
+
+[Continent Europe (EU)
+[Country] Russia (RU)
+[Region] St.-Petersburg (SPE)
+[City] St Petersburg (Europe/Moscow)
+[ISP] IE Zhemoedov Sergey Mihaylovich (IE Zhemoedov Sergey Mihaylovich)
+            [HOST] 14.200.93.45.in-addr.arpaIP: 162.19.130.81
+
+[Continent Europe (EU)
+[Country] Germany (DE)
+[Region] Hesse (HE)
+[City] Limburg an der Lahn (Europe/Berlin)
+[ISP] OVH SAS (OVH GmbH)
+            [HOST] ip81.ip-162-19-130.eu

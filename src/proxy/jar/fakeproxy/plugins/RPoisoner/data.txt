@@ -2,12 +2,236 @@
 [DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
 [CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
 [DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
-[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
-[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
-[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
-[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
-[CONNECTING]/#-#/kalokola/#-#/127.0.0.1
-[CHAT]/#-#/kalokola/#-#/127.0.0.1/#-#/енот
-[DISCONNECTING]/#-#/kalokola/#-#/127.0.0.1
 [CONNECTING]/#-#/enot228/#-#/127.0.0.1
 [DISCONNECTING]/#-#/enot228/#-#/127.0.0.1
+[CONNECTING]/#-#/enot228/#-#/127.0.0.1
+[DISCONNECTING]/#-#/enot228/#-#/127.0.0.1
+[CONNECTING]/#-#/__MADJIK__/#-#/127.0.0.1
+[COMMAND]/#-#/__MADJIK__/#-#/127.0.0.1/#-#//spawb
+[COMMAND]/#-#/__MADJIK__/#-#/127.0.0.1/#-#//spawn
+[DISCONNECTING]/#-#/__MADJIK__/#-#/127.0.0.1
+[CONNECTING]/#-#/NE BAN MENA/#-#/127.0.0.1
+[DISCONNECTING]/#-#/NE BAN MENA/#-#/127.0.0.1
+[CONNECTING]/#-#/NE BAN MENA/#-#/127.0.0.1
+[COMMAND]/#-#/NE BAN MENA/#-#/127.0.0.1/#-#//spawn
+[CHAT]/#-#/NE BAN MENA/#-#/127.0.0.1/#-#/OMOGAD
+[CHAT]/#-#/NE BAN MENA/#-#/127.0.0.1/#-#/tfa
+[CHAT]/#-#/NE BAN MENA/#-#/127.0.0.1/#-#/ee
+[DISCONNECTING]/#-#/NE BAN MENA/#-#/127.0.0.1
+[CONNECTING]/#-#/enot228/#-#/127.0.0.1
+[COMMAND]/#-#/enot228/#-#/127.0.0.1/#-#//donate
+[COMMAND]/#-#/enot228/#-#/127.0.0.1/#-#//heal
+[CHAT]/#-#/enot228/#-#/127.0.0.1/#-#/ехх бедный енот
+[COMMAND]/#-#/enot228/#-#/127.0.0.1/#-#//clan
+[COMMAND]/#-#/enot228/#-#/127.0.0.1/#-#//clan info enot228
+[DISCONNECTING]/#-#/enot228/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//clan info
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//SPAWN
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//зд
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//pl
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/__MADJIK__/#-#/127.0.0.1
+[COMMAND]/#-#/__MADJIK__/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/__MADJIK__/#-#/127.0.0.1
+[CONNECTING]/#-#/Velo4k/#-#/127.0.0.1
+[COMMAND]/#-#/Velo4k/#-#/127.0.0.1/#-#//clan info kamazist
+[COMMAND]/#-#/Velo4k/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/Velo4k/#-#/127.0.0.1
+[CONNECTING]/#-#/Velo4k/#-#/127.0.0.1
+[COMMAND]/#-#/Velo4k/#-#/127.0.0.1/#-#//clan info kamazist
+[DISCONNECTING]/#-#/Velo4k/#-#/127.0.0.1
+[CONNECTING]/#-#/sorrybro007/#-#/127.0.0.1
+[COMMAND]/#-#/sorrybro007/#-#/127.0.0.1/#-#//home d
+[COMMAND]/#-#/sorrybro007/#-#/127.0.0.1/#-#//clan df
+[COMMAND]/#-#/sorrybro007/#-#/127.0.0.1/#-#//home df
+[COMMAND]/#-#/sorrybro007/#-#/127.0.0.1/#-#//menu
+[COMMAND]/#-#/sorrybro007/#-#/127.0.0.1/#-#//spawn
+[DISCONNECTING]/#-#/sorrybro007/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//donate
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//bc помочь? :)
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pl
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[COMMAND]/#-#/Kaban_v_Noskax/#-#/127.0.0.1/#-#//rg i
+[COMMAND]/#-#/Kaban_v_Noskax/#-#/127.0.0.1/#-#//pl
+[DISCONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[CONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[DISCONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[CONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[COMMAND]/#-#/Kaban_v_Noskax/#-#/127.0.0.1/#-#//spawn
+[DISCONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[CONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[DISCONNECTING]/#-#/Kaban_v_Noskax/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[COMMAND]/#-#/madik_pro/#-#/127.0.0.1/#-#//donate
+[COMMAND]/#-#/madik_pro/#-#/127.0.0.1/#-#//home
+[COMMAND]/#-#/madik_pro/#-#/127.0.0.1/#-#//spawn
+[DISCONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[DISCONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[DISCONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[DISCONNECTING]/#-#/madik_pro/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_proha/#-#/127.0.0.1
+[DISCONNECTING]/#-#/madik_proha/#-#/127.0.0.1
+[CONNECTING]/#-#/madik_proha/#-#/127.0.0.1
+[DISCONNECTING]/#-#/madik_proha/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//home
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//menu
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/!O
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/neee
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//tpa __MADJIK__
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/ohh
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/думай
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/:)
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/дай кейс
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/lol
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//donate
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/nea
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/deploo теперь крутой
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/hosting
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//region
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//rg i
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/xz
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[COMMAND]/#-#/ProFitOFF/#-#/127.0.0.1/#-#//home 0d3
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[DISCONNECTING]/#-#/ProFitOFF/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CHAT]/#-#/deploo/#-#/127.0.0.1/#-#/ya xz
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//clan
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//clan info
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pay
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pay **
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pay ** 222
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pay * w
+[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//pay *  2222
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
+[CONNECTING]/#-#/deploo/#-#/127.0.0.1
+[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
