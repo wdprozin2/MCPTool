@@ -1,61 +1,8 @@
-[CONNECTING]/#-#/sqlkotikq/#-#/127.0.0.1
-[CHAT]/#-#/sqlkotikq/#-#/127.0.0.1/#-#/f
-[DISCONNECTING]/#-#/sqlkotikq/#-#/127.0.0.1
-[CONNECTING]/#-#/deploo/#-#/127.0.0.1
-[COMMAND]/#-#/deploo/#-#/127.0.0.1/#-#//spawn
-[DISCONNECTING]/#-#/deploo/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CHAT]/#-#/CuMuZ/#-#/127.0.0.1/#-#/nee
-[CHAT]/#-#/CuMuZ/#-#/127.0.0.1/#-#/!okk
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//fly
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//clan info kamazist
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//donate
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//donate
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//thor
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home home
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home pust
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home end
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home end
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CHAT]/#-#/CuMuZ/#-#/127.0.0.1/#-#/sam xz)
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home ererer
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home home
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//spawn
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//home farm
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//spawn
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//spawn
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//menu
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//op
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//spawn
-[COMMAND]/#-#/CuMuZ/#-#/127.0.0.1/#-#//pl
-[CHAT]/#-#/CuMuZ/#-#/127.0.0.1/#-#/mmm
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[CONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
-[DISCONNECTING]/#-#/CuMuZ/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[CONNECTING]/#-#/sqlkotik/#-#/127.0.0.1
+[DISCONNECTING]/#-#/sqlkotik/#-#/127.0.0.1

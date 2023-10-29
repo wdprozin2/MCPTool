@@ -1,140 +1,49 @@
-[19:32:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-67d5e77b-b290)...
-[19:32:03] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[19:32:04] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
-[19:32:04] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[19:32:04] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[21:34:18] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-2ec830f8-b293)...
+[21:34:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[21:34:19] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[21:34:19] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[21:34:20] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.io.IOException: Unable to read the image.
-	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:230) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-[19:32:04] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[19:32:05] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
-[19:32:05] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[19:32:06] [Netty NIO Boss #0/ERROR] [com.velocitypowered.proxy.network.ConnectionManager]: Can't bind to /0.0.0.0:33330
-java.net.BindException: Address already in use: bind
-	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
-	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
-	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
-	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
-	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[Velocity.jar:3.2.0-S[19:32:20] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotikq (/127.0.0.1:52928) has connected
-[19:32:20] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has connected
-[19:32:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotikq (/127.0.0.1:52928) has disconnected
-[19:32:28] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has disconnected
-[19:32:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/127.0.0.1:52947) has connected
-[19:32:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
-[19:34:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/127.0.0.1:52947) has disconnected
-[19:34:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
-[19:34:34] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52966) has connected
-[19:34:34] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:35:33] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:52966) has disconnected
-[19:35:33] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:35:46] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52983) has connected
-[19:35:47] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:37:19] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@2ee93849
-java.net.SocketException: Connection reset
-	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
-	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:230) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+[21:34:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[21:34:20] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
+[21:34:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[21:34:20] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:33330
+[21:34:20] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3,02s)!
+[21:34:38] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23916) has connected
+[21:34:43] [Netty NIO Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:23916): unable to connect to server lobby
+io.netty.channel.ConnectTimeoutException: connection timed out: /92.63.189.219:25565
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[19:37:19] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:52983) has disconnected: Your connection to lobby encountered a problem.
-[19:37:19] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:37:24] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:52998) has connected
-[19:37:27] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:52998) has disconnected
-[19:39:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53066) has connected
-[19:39:13] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53066): kicked from server lobby: На сервере произошла внутренняя ошибка подключения.
-[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:40:22] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53066) has disconnected: You were kicked from lobby: An internal server connection error occurred.
-[19:40:32] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53078) has connected
-[19:40:32] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:40:45] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:40:45] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53078): disconnected while connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
-[19:40:45] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53078) has disconnected: Не удалось подключиться к серверу lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
-[19:41:00] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53086) has connected
-[19:41:00] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:41:51] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53086) has disconnected
-[19:41:51] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:42:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53109) has connected
-[19:42:17] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:46:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53109) has disconnected
-[19:46:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:48:38] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53166) has connected
-[19:48:38] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:52:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53166) has disconnected
-[19:52:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:54:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53222) has connected
-[19:54:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:54:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53222) has disconnected
-[19:54:45] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[19:55:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53233) has connected
-[19:55:36] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[19:56:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53233) has disconnected
-[19:56:28] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
-[20:07:09] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53379) has connected
-[20:07:13] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53379) has disconnected
-[20:07:21] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53393) has connected
-[20:07:26] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53393): unable to connect to server lobby
-io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
+[21:34:43] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:23916) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
+[21:34:49] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23925) has connected
+[21:34:52] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23925) has disconnected
+[21:35:01] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23927) has connected
+[21:35:04] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23927) has disconnected
+[21:35:12] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23934) has connected
+[21:35:14] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23934) has disconnected
+[21:35:17] [Velocity Async Event Executor - #0/ERROR] [com.velocitypowered.proxy.event.VelocityEventManager]: Couldn't pass CommandExecuteEvent to rpoisoner
+java.lang.ClassCastException: class com.velocitypowered.proxy.console.VelocityConsole cannot be cast to class com.velocitypowered.api.proxy.Player (com.velocitypowered.proxy.console.VelocityConsole and com.velocitypowered.api.proxy.Player are in unnamed module of loader 'app')
+	at com.wrrulos.rpoisoner.listeners.CommandListener.onPlayerCommand(CommandListener.java:18) ~[?:?]
+	at com.wrrulos.rpoisoner.listeners.Lmbda$3.execute(Unknown Source) ~[?:?]
+	at com.velocitypowered.proxy.event.UntargetedEventHandler$VoidHandler.lambda$buildHandler$0(UntargetedEventHandler.java:56) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.event.VelocityEventManager.fire(VelocityEventManager.java:597) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at com.velocitypowered.proxy.event.VelocityEventManager.lambda$fire$5(VelocityEventManager.java:478) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:842) [?:?]
-[20:07:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53393) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[20:07:30] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53401) has connected
-[20:07:35] [Netty NIO Worker #7/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53401): unable to connect to server lobby
-io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[20:07:35] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53401) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[20:08:26] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53436) has connected
-[20:08:31] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53436): unable to connect to server lobby
-io.netty.channel.ConnectTimeoutException: connection timed out: /45.93.200.14:25596
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-67d5e77b-b290)]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[20:08:31] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] CuMuZ (/127.0.0.1:53436) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[20:09:19] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53439) has connected
-[20:09:24] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53439) has disconnected
-[20:28:25] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] CuMuZ (/127.0.0.1:53475) has connected
-[20:28:26] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has connected
-[20:29:17] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] CuMuZ (/127.0.0.1:53475) has disconnected
-[20:29:17] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] CuMuZ -> lobby has disconnected
+[21:35:17] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [38;2;255;85;85mЭтой команды не существует.[0m
