@@ -1,14 +1,6 @@
-[CONNECTING]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1
-[COMMAND]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1/#-#///wand
-[COMMAND]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1/#-#//rg i
-[COMMAND]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1/#-#//pl
-[DISCONNECTING]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1
-[COMMAND]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1/#-#//spawn
-[DISCONNECTING]/#-#/sqlkotikq/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/deploo/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/deploo/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/(/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/(/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/__MADJIK__/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/__MADJIK__/#-#/0:0:0:0:0:0:0:1
+[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
