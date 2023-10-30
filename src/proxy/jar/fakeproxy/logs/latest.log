@@ -1,49 +1,37 @@
-[21:34:18] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-2ec830f8-b293)...
-[21:34:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[21:34:19] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
-[21:34:19] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
-[21:34:20] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
+[12:06:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-8dcc7ee3-b294)...
+[12:06:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[12:06:31] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[12:06:31] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[12:06:31] [main/INFO] [com.velocitypowered.proxy.config.VelocityConfiguration]: Unable to load your server-icon.png, continuing without it.
 java.io.IOException: Unable to read the image.
-	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:230) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-[21:34:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[21:34:20] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
-[21:34:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
-[21:34:20] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:33330
-[21:34:20] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3,02s)!
-[21:34:38] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23916) has connected
-[21:34:43] [Netty NIO Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:23916): unable to connect to server lobby
-io.netty.channel.ConnectTimeoutException: connection timed out: /92.63.189.219:25565
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe$1.run(AbstractNioChannel.java:261) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:153) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[21:34:43] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] sqlkotik (/127.0.0.1:23916) has disconnected: Не удалось подключить вас к серверу lobby. Пожалуйста, попробуйте снова через некоторое время.
-[21:34:49] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23925) has connected
-[21:34:52] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23925) has disconnected
-[21:35:01] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23927) has connected
-[21:35:04] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23927) has disconnected
-[21:35:12] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:23934) has connected
-[21:35:14] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:23934) has disconnected
-[21:35:17] [Velocity Async Event Executor - #0/ERROR] [com.velocitypowered.proxy.event.VelocityEventManager]: Couldn't pass CommandExecuteEvent to rpoisoner
-java.lang.ClassCastException: class com.velocitypowered.proxy.console.VelocityConsole cannot be cast to class com.velocitypowered.api.proxy.Player (com.velocitypowered.proxy.console.VelocityConsole and com.velocitypowered.api.proxy.Player are in unnamed module of loader 'app')
-	at com.wrrulos.rpoisoner.listeners.CommandListener.onPlayerCommand(CommandListener.java:18) ~[?:?]
-	at com.wrrulos.rpoisoner.listeners.Lmbda$3.execute(Unknown Source) ~[?:?]
-	at com.velocitypowered.proxy.event.UntargetedEventHandler$VoidHandler.lambda$buildHandler$0(UntargetedEventHandler.java:56) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.fire(VelocityEventManager.java:597) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.lambda$fire$5(VelocityEventManager.java:478) ~[Velocity.jar:3.2.0-SNAPSHOT (git-2ec830f8-b293)]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:842) [?:?]
-[21:35:17] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: [38;2;255;85;85mЭтой команды не существует.[0m
+	at com.velocitypowered.api.util.Favicon.create(Favicon.java:105) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.loadFavicon(VelocityConfiguration.java:239) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.config.VelocityConfiguration.validate(VelocityConfiguration.java:230) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:317) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:222) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+[12:06:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[12:06:32] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin rpoisoner 1.0.0 by wRRulos
+[12:06:32] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[12:06:32] [Netty NIO Boss #0/ERROR] [com.velocitypowered.proxy.network.ConnectionManager]: Can't bind to /0.0.0.0:33330
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Nativ[12:06:53] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotikq (/[0:0:0:0:0:0:0:1]:13843) has connected
+[12:06:53] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has connected
+[12:07:33] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotikq (/[0:0:0:0:0:0:0:1]:13843) has disconnected
+[12:07:33] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has disconnected
+[12:09:04] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotikq (/[0:0:0:0:0:0:0:1]:13906) has connected
+[12:09:04] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has connected
+[12:12:02] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotikq (/[0:0:0:0:0:0:0:1]:13906) has disconnected
+[12:12:02] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] sqlkotikq -> lobby has disconnected
+[12:12:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] deploo (/[0:0:0:0:0:0:0:1]:13924) has connected
+[12:12:11] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has connected
+[12:12:19] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] deploo (/[0:0:0:0:0:0:0:1]:13924) has disconnected
+[12:12:19] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] deploo -> lobby has disconnected
+[12:12:44] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] ( (/[0:0:0:0:0:0:0:1]:13939) has connected
+[12:12:45] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ( -> lobby has connected
+[12:14:21] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] ( (/[0:0:0:0:0:0:0:1]:13939) has disconnected
+[12:14:21] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] ( -> lobby has disconnected
+[12:14:31] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] __MADJIK__ (/[0:0:0:0:0:0:0:1]:13954) has connected
+[12:14:31] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has connected
+[12:14:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] __MADJIK__ (/[0:0:0:0:0:0:0:1]:13954) has disconnected
+[12:14:36] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] __MADJIK__ -> lobby has disconnected
