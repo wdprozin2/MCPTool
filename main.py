@@ -1,5 +1,5 @@
 import subprocess
-import time
+import tiheme
 import os
 import sys
 
