@@ -1,76 +1,69 @@
-[19:13:16] [main/INFO]: Using standard Java JCE cipher.
-[19:13:16] [main/INFO]: Using standard Java compressor.
-[19:13:16] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:9b4b8cb:549
-[19:13:17] [main/INFO]: Loaded plugin RBungeeExploit version 1.0 by wRRulos
-[19:13:17] [main/WARN]: Forced host server pvp is not defined
-[19:13:17] [main/INFO]: [RBungeeExploit] RBungeeExploit loaded successfully!. By @wrrulos
-[19:13:17] [main/INFO]: 
-[19:13:17] [main/INFO]: ------------------------------------------------------------------------------
-[19:13:17] [main/INFO]: - connect [ip:port]  
-[19:13:17] [main/INFO]: - set-uuid [UUID]  
-[19:13:17] [main/INFO]: ------------------------------------------------------------------------------
-[19:13:17] [main/INFO]: 
-[19:13:17] [main/INFO]: Enabled plugin RBungeeExploit version 1.0 by wRRulos
-[19:13:17] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25570
-[19:13:24] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52391] <-> InitialHandler has pinged
-[19:13:26] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52392] <-> InitialHandler has connected
-[19:13:26] [Netty Worker IO Thread #2/INFO]: [deploo|/127.0.0.1:52392] <-> ServerConnector [server] has connected
-[19:13:27] [Netty Worker IO Thread #2/WARN]: [/127.0.0.1:52392|deploo] <-> DownstreamBridge <-> [server] - could not decode packet! io.netty.handler.codec.DecoderException: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7 path $
-[19:13:27] [Netty Worker IO Thread #2/INFO]: [deploo] disconnected with: The server you were previously on went down, you have been connected to a fallback server
-[19:13:27] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52392|deploo] -> UpstreamBridge has disconnected
-[19:13:27] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52392|deploo] <-> DownstreamBridge <-> [server] has disconnected
-[19:13:32] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52397] <-> InitialHandler has pinged
-[19:13:32] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:52403] <-> InitialHandler has pinged
-[19:13:34] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52406] <-> InitialHandler has connected
-[19:13:34] [Netty Worker IO Thread #5/INFO]: [deploo|/127.0.0.1:52406] <-> ServerConnector [server] has connected
-[19:13:34] [Netty Worker IO Thread #5/WARN]: [/127.0.0.1:52406|deploo] <-> DownstreamBridge <-> [server] - could not decode packet! io.netty.handler.codec.DecoderException: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7 path $
-[19:13:34] [Netty Worker IO Thread #5/INFO]: [deploo] disconnected with: The server you were previously on went down, you have been connected to a fallback server
-[19:13:34] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52406|deploo] -> UpstreamBridge has disconnected
-[19:13:34] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52406|deploo] <-> DownstreamBridge <-> [server] has disconnected
-[19:13:37] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:52412] <-> InitialHandler has pinged
-[19:13:37] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:52419] <-> InitialHandler has pinged
-[19:13:38] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52425] <-> InitialHandler has pinged
-[19:13:38] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52431] <-> InitialHandler has pinged
-[19:13:40] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52432] <-> InitialHandler has connected
-[19:13:40] [Netty Worker IO Thread #2/INFO]: [deploo|/127.0.0.1:52432] <-> ServerConnector [server] has connected
-[19:13:40] [Netty Worker IO Thread #2/WARN]: [/127.0.0.1:52432|deploo] <-> DownstreamBridge <-> [server] - could not decode packet! io.netty.handler.codec.DecoderException: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7 path $
-[19:13:40] [Netty Worker IO Thread #2/INFO]: [deploo] disconnected with: The server you were previously on went down, you have been connected to a fallback server
-[19:13:40] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52432|deploo] -> UpstreamBridge has disconnected
-[19:13:40] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52432|deploo] <-> DownstreamBridge <-> [server] has disconnected
-[19:13:43] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52439] <-> InitialHandler has pinged
-[19:13:53] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:52445] <-> InitialHandler has pinged
-[19:13:54] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52453] <-> InitialHandler has pinged
-[19:14:14] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:52459] <-> InitialHandler has pinged
-[19:14:22] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:52467] <-> InitialHandler has pinged
-[19:14:38] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52472] <-> InitialHandler has pinged
-[19:15:29] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52480] <-> InitialHandler has pinged
-[19:15:59] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52486] <-> InitialHandler has pinged
-[19:16:20] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52496] <-> InitialHandler has pinged
-[19:16:21] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:52503] <-> InitialHandler has pinged
-[19:16:25] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52512] <-> InitialHandler has pinged
-[19:16:25] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:52518] <-> InitialHandler has pinged
-[19:16:54] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:52525] <-> InitialHandler has pinged
-[19:16:54] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52532] <-> InitialHandler has pinged
-[19:17:13] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52540] <-> InitialHandler has pinged
-[19:17:34] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52553] <-> InitialHandler has pinged
-[19:17:35] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52559] <-> InitialHandler has pinged
-[19:17:35] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:52564] <-> InitialHandler has pinged
-[19:17:35] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52573] <-> InitialHandler has pinged
-[19:17:41] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:52580] <-> InitialHandler has pinged
-[19:18:19] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:52588] <-> InitialHandler has pinged
-[19:21:28] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52601] <-> InitialHandler has pinged
-[19:21:29] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52607] <-> InitialHandler has pinged
-[19:21:29] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52615] <-> InitialHandler has pinged
-[19:22:01] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52623] <-> InitialHandler has pinged
-[19:22:01] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:52632] <-> InitialHandler has pinged
-[19:22:14] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:52637] <-> InitialHandler has pinged
-[19:23:02] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:52650] <-> InitialHandler has pinged
-[19:23:28] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:52662] <-> InitialHandler has pinged
-[19:23:38] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:52670] <-> InitialHandler has pinged
-[19:23:53] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:52677] <-> InitialHandler has pinged
-[19:24:00] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:52687] <-> InitialHandler has pinged
-[19:24:32] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52691] <-> InitialHandler has connected
-[19:24:32] [Netty Worker IO Thread #3/INFO]: [deploo|/127.0.0.1:52691] <-> ServerConnector [server] has connected
-[19:24:33] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:52691|deploo] -> UpstreamBridge has disconnected
-[19:24:33] [Netty Worker IO Thread #3/WARN]: No client connected for pending server!
-[19:24:33] [Netty Worker IO Thread #3/INFO]: [deploo|/127.0.0.1:52691] <-> ServerConnector [server] has disconnected
+[22:57:51] [main/INFO]: Using standard Java JCE cipher.
+[22:57:51] [main/INFO]: Using standard Java compressor.
+[22:57:51] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.20-R0.2-SNAPSHOT:9b4b8cb:549
+[22:57:51] [main/INFO]: Loaded plugin RBungeeExploit version 1.0 by wRRulos
+[22:57:51] [main/WARN]: Forced host server pvp is not defined
+[22:57:51] [main/INFO]: [RBungeeExploit] RBungeeExploit loaded successfully!. By @wrrulos
+[22:57:51] [main/INFO]: 
+[22:57:51] [main/INFO]: ------------------------------------------------------------------------------
+[22:57:51] [main/INFO]: - connect [ip:port]  
+[22:57:51] [main/INFO]: - set-uuid [UUID]  
+[22:57:51] [main/INFO]: ------------------------------------------------------------------------------
+[22:57:51] [main/INFO]: 
+[22:57:51] [main/INFO]: Enabled plugin RBungeeExploit version 1.0 by wRRulos
+[22:57:51] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25570
+[22:58:02] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:21932] <-> InitialHandler has pinged
+[22:58:03] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:21933] <-> InitialHandler has connected
+[22:58:04] [Netty Worker IO Thread #2/INFO]: [sqlkotik|/127.0.0.1:21933] <-> ServerConnector [server] has connected
+[23:02:02] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:21933|sqlkotik] -> UpstreamBridge has disconnected
+[23:02:02] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:21933|sqlkotik] <-> DownstreamBridge <-> [server] has disconnected
+[23:02:02] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:21941] <-> InitialHandler has pinged
+[23:03:26] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:21979] <-> InitialHandler has pinged
+[23:03:39] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:21996] <-> InitialHandler has pinged
+[23:03:48] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:22008] <-> InitialHandler has pinged
+[23:04:01] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:22024] <-> InitialHandler has pinged
+[23:04:05] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:22033] <-> InitialHandler has pinged
+[23:04:06] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:22037] <-> InitialHandler has connected
+[23:04:06] [Netty Worker IO Thread #1/INFO]: [sqlkotik|/127.0.0.1:22037] <-> ServerConnector [server] has connected
+[23:05:34] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:22037|sqlkotik] -> UpstreamBridge has disconnected
+[23:05:34] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:22037|sqlkotik] <-> DownstreamBridge <-> [server] has disconnected
+[23:05:35] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:22073] <-> InitialHandler has pinged
+[23:06:04] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:22083] <-> InitialHandler has pinged
+[23:06:10] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:22092] <-> InitialHandler has pinged
+[23:06:11] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:22095] <-> InitialHandler has connected
+[23:06:11] [Netty Worker IO Thread #5/INFO]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [server] has connected
+[23:06:45] [Netty Worker IO Thread #5/INFO]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] has connected
+[23:06:46] [Netty Worker IO Thread #5/WARN]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] - could not decode packet! io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: Packet must implement read method
+[23:06:46] [Netty Worker IO Thread #5/INFO]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] has disconnected
+[23:06:53] [Netty Worker IO Thread #5/WARN]: Error occurred processing connection for sqlkotik AnnotatedConnectException : Connection refused: no further information: /3.67.161.133:25565
+[23:07:21] [Netty Worker IO Thread #5/INFO]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] has connected
+[23:07:21] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:22101] <-> InitialHandler has connected
+[23:07:21] [Netty Worker IO Thread #5/WARN]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] - could not decode packet! io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: Packet must implement read method
+[23:07:21] [Netty Worker IO Thread #5/INFO]: [sqlkotik|/127.0.0.1:22095] <-> ServerConnector [tempserver] has disconnected
+[23:07:33] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:22095|sqlkotik] -> UpstreamBridge has disconnected
+[23:07:33] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:22095|sqlkotik] <-> DownstreamBridge <-> [server] has disconnected
+[23:07:34] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:22106] <-> InitialHandler has pinged
+[23:07:50] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:22109] <-> InitialHandler has connected
+[23:07:50] [Netty Worker IO Thread #0/INFO]: [POZITIVYouTube_|/127.0.0.1:22109] <-> ServerConnector [server] has connected
+[23:07:55] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:22109|POZITIVYouTube_] -> UpstreamBridge has disconnected
+[23:07:56] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:22115] <-> InitialHandler has pinged
+[23:07:57] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:22118] <-> InitialHandler has connected
+[23:07:57] [Netty Worker IO Thread #2/INFO]: [POZITIVYouTube_|/127.0.0.1:22118] <-> ServerConnector [server] has connected
+[23:08:01] [Netty Worker IO Thread #0/WARN]: No client connected for pending server!
+[23:08:01] [Netty Worker IO Thread #0/INFO]: [POZITIVYouTube_|/127.0.0.1:22109] <-> ServerConnector [server] has disconnected
+[23:08:15] [Netty Worker IO Thread #2/WARN]: [/127.0.0.1:22118|POZITIVYouTube_] <-> DownstreamBridge <-> [server] - could not decode packet! io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: Packet must implement read method
+[23:08:15] [Netty Worker IO Thread #2/INFO]: [POZITIVYouTube_] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[23:08:15] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:22118|POZITIVYouTube_] -> UpstreamBridge has disconnected
+[23:08:15] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:22118|POZITIVYouTube_] <-> DownstreamBridge <-> [server] has disconnected
+[23:09:11] [Netty Worker IO Thread #3/INFO]: [/127.0.0.1:22129] <-> InitialHandler has pinged
+[23:10:17] [Netty Worker IO Thread #4/INFO]: [/127.0.0.1:22162] <-> InitialHandler has pinged
+[23:10:46] [Netty Worker IO Thread #5/INFO]: [/127.0.0.1:22190] <-> InitialHandler has pinged
+[23:10:47] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:22193] <-> InitialHandler has connected
+[23:10:47] [Netty Worker IO Thread #6/INFO]: [POZITIVYouTube_|/127.0.0.1:22193] <-> ServerConnector [server] has connected
+[23:11:11] [Netty Worker IO Thread #6/WARN]: [/127.0.0.1:22193|POZITIVYouTube_] <-> DownstreamBridge <-> [server] - could not decode packet! io.netty.handler.codec.DecoderException: java.lang.UnsupportedOperationException: Packet must implement read method
+[23:11:11] [Netty Worker IO Thread #6/INFO]: [POZITIVYouTube_] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[23:11:11] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:22193|POZITIVYouTube_] -> UpstreamBridge has disconnected
+[23:11:11] [Netty Worker IO Thread #6/INFO]: [/127.0.0.1:22193|POZITIVYouTube_] <-> DownstreamBridge <-> [server] has disconnected
+[23:11:13] [Netty Worker IO Thread #7/INFO]: [/127.0.0.1:22201] <-> InitialHandler has pinged
+[23:11:22] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:22207] <-> InitialHandler has pinged
+[23:11:41] [Thread-1/INFO]: Closing listener [id: 0x4f0ebcb8, L:/[0:0:0:0:0:0:0:0]:25570]

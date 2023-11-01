@@ -1,14 +1,34 @@
-[02:24:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-ae63da68-b286)...
-[02:24:06] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[02:24:06] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
-[02:24:06] [main/ERROR] [com.velocitypowered.proxy.VelocityServer]: Unable to read/load/save your velocity.toml. The server will shut down.
-java.lang.IllegalArgumentException: No enum constant com.velocitypowered.proxy.config.PlayerInfoForwarding.bungee
-	at com.electronwill.nightconfig.core.EnumGetMethod.get(EnumGetMethod.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnum(UnmodifiableConfig.java:175) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:275) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:250) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.electronwill.nightconfig.core.UnmodifiableConfig.getEnumOrElse(UnmodifiableConfig.java:258) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.velocitypowered.proxy.config.VelocityConfiguration.read(VelocityConfiguration.java:553) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.velocitypowered.proxy.VelocityServer.doStartupConfigLoad(VelocityServer.java:313) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.velocitypowered.proxy.VelocityServer.start(VelocityServer.java:220) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
-	at com.velocitypowered.proxy.Velocity.main(Velocity.java:69) ~[Velocity.jar:3.2.0-SNAPSHOT (git-ae63da68-b286)]
+[21:52:30] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-8dcc7ee3-b294)...
+[21:52:31] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[21:52:31] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[21:52:31] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[21:52:32] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[21:52:32] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin mcptool 1.0.0 by wRRulos
+[21:52:32] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 1 plugins
+[21:52:32] [Velocity Async Event Executor - #0/INFO] [mcptool]: The MCPTool plugin loaded successfully.
+[21:52:33] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25580
+[21:52:33] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (3,04s)!
+[21:52:47] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] sqlkotik (/127.0.0.1:2483) has connected
+[21:52:47] [Netty NIO Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:2483): exception encountered in com.velocitypowered.proxy.connection.client.AuthSessionHandler@4f41192d
+io.netty.handler.codec.EncoderException: java.lang.IllegalArgumentException: Unable to find id for packet of type com.velocitypowered.proxy.protocol.packet.chat.legacy.LegacyChat in CLIENTBOUND protocol 1.12.2 phase LOGIN
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:125) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.channel.AbstractChannelHandlerContext$WriteTask.run(AbstractChannelHandlerContext.java:1247) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.lang.IllegalArgumentException: Unable to find id for packet of type com.velocitypowered.proxy.protocol.packet.chat.legacy.LegacyChat in CLIENTBOUND protocol 1.12.2 phase LOGIN
+	at com.velocitypowered.proxy.protocol.StateRegistry$PacketRegistry$ProtocolRegistry.getPacketId(StateRegistry.java:697) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftEncoder.encode(MinecraftEncoder.java:52) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at com.velocitypowered.proxy.protocol.netty.MinecraftEncoder.encode(MinecraftEncoder.java:32) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[Velocity.jar:3.2.0-SNAPSHOT (git-8dcc7ee3-b294)]
+	... 11 more
+[21:52:47] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] sqlkotik (/127.0.0.1:2483) has disconnected
+[21:52:59] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[21:52:59] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25580

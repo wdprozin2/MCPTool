@@ -1,6 +1,4 @@
-[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
-[CONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
-[DISCONNECTING]/#-#/sqlkotik/#-#/0:0:0:0:0:0:0:1
+[CONNECTING]/#-#/POZITIVYouTube_/#-#/127.0.0.1
+[COMMAND]/#-#/POZITIVYouTube_/#-#/127.0.0.1/#-#//ban
+[COMMAND]/#-#/POZITIVYouTube_/#-#/127.0.0.1/#-#//op
+[DISCONNECTING]/#-#/POZITIVYouTube_/#-#/127.0.0.1
