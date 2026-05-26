@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Minecraft Proxy binaries
+WaterFall.jar
+Velocity.jar
+ngrok.exe
+masscan.exe
+
+# Temporary files / updates
+*.zip
+NgrokZip_temp/
+
+# Logs and user files
+logs/
+*.log
+config/config.json.bak
+config/config.json.tmp
