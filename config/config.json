@@ -32,5 +32,5 @@
         "velocityVersion": "https://api.papermc.io/v2/projects/velocity/versions/3.4.0-SNAPSHOT/builds/559/downloads/velocity-3.4.0-SNAPSHOT-559.jar"
     },
     "logs": true,
-    "currentVersion": "4.0.4"
+    "currentVersion": "1.0"
 }
